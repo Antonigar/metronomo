@@ -1,0 +1,27 @@
+METRÓNOMO DE ANTONIO · versión web para iPhone
+
+Esta carpeta es la app completa. Para instalarla en el iPhone tiene que estar
+publicada en una dirección https (Safari no ejecuta archivos .html abiertos
+desde la app Archivos).
+
+PUBLICARLA GRATIS (una sola vez)
+Opción A · GitHub Pages
+  1. Crea un repositorio público, por ejemplo "metronomo".
+  2. Sube TODO el contenido de esta carpeta (index.html, sw.js, manifest,
+     fonts/, icons/) a la raíz del repositorio.
+  3. Settings → Pages → Branch: main / root → Save.
+  4. En un minuto queda en https://TU-USUARIO.github.io/metronomo/
+Opción B · Netlify Drop (app.netlify.com/drop)
+  Arrastra esta carpeta a la página y te da una dirección https.
+
+INSTALAR EN CADA IPHONE
+  1. Abre la dirección en Safari.
+  2. Botón Compartir → "Agregar a pantalla de inicio" → Agregar.
+  3. Ábrela desde el icono: se ve a pantalla completa, sin barras de Safari,
+     y funciona sin internet después de la primera apertura.
+
+NOTAS
+  · Suena aunque el iPhone esté en modo silencio (usa el volumen multimedia).
+  · La pantalla no se apaga mientras el metrónomo está sonando (iOS 16.4+).
+  · Si cambias de app, al volver el metrónomo se re-sincroniza solo.
+  · El estrobo produce destellos rápidos; se puede apagar con el botón "Estrobo".
